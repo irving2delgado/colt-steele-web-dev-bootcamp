@@ -6,6 +6,8 @@ body {
 	background: #ecf0f1;
 
 }
+
+/* Nav bar edits*/
 .navbar-inverse {
 	background: #2c3e50;
 
@@ -18,12 +20,79 @@ body {
     color: white;
 }
 
-.firstimg:hover {
+.thumbnail img {
+	height: 190.59px;
+	width: 335px;
+	
+}
+
+/* Img effects */
+
+#firstimg:hover {
 	
 	transform: scale(1.1);
 	border-radius: 70px;
 	
 }
+
+#secondimg:hover {
+	
+	transform: rotate(90deg);
+	border-radius: 70px;
+	
+}
+
+#thirdimg:hover {
+	
+	transform: rotate(180deg);
+	border-radius: 70px;
+	
+}
+
+#fourthimg:hover {
+	transform:translate(100px);
+	transform: ;
+	border-radius: 70px;
+	
+}
+
+#fifthimg:hover {
+	box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+	transform: scale(1.1);
+	border-radius: 70px;
+	
+}
+
+#sixthimg:hover {
+	border-color: red rgb(170, 50, 220, .6);
+	transform: scale(1.1);
+	border-radius: 70px;
+	
+}
+
+#seventhimg:hover {
+	
+	transform: scale(1.1);
+	border-radius: 70px;
+	
+}
+
+#eigthimg:hover {
+	/*-moz-transform: scale(1.05) slow;*/
+	box-shadow: 12px 12px 2px 1px rgba(7, 9, 255, .2);
+	transform: scale(1.1);
+	border-radius: 70px;
+	
+}
+
+#ninthimg:hover {
+	-webkit-transition: transform 2s ease-in-out;
+	transform: scale(1.1);
+	border-radius: 70px;
+	
+}
+
+
 
 map {
 	padding-left: 50%;
