@@ -1,5 +1,6 @@
 body {
 	background: url(https://i.pinimg.com/originals/19/46/3c/19463ca9f5a691be47eee3b5edba3fd7.jpg);
+	height: 100%;
 	background-size: cover;
 	background-position: center;
 	font-family: lato;
@@ -15,7 +16,7 @@ html {
 
 #content {
 	text-align: center;
-	padding: 25%;
+	padding: 15%;
 	color: white;
 	text-shadow: #FC0 1px 0 10px;
 				 
